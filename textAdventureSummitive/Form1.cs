@@ -157,7 +157,7 @@ namespace textAdventureSummitive
                     {
                         codeInputText += "\n" + codeInput.Text;
                         outputLabel.Text = "that works, next input" + "\nThe code:\n" + codeInputText;
-                    }
+                    }//
                 }
             }
         }
