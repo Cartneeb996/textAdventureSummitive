@@ -85,5 +85,17 @@
   <ItemGroup>
     <None Include="rButton.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Icon_Yellow.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Icon_Yellow.svg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="computer ico.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
