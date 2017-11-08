@@ -54,7 +54,6 @@
             // 
             // bLabel
             // 
-            this.bLabel.AutoSize = true;
             this.bLabel.Location = new System.Drawing.Point(85, 209);
             this.bLabel.Name = "bLabel";
             this.bLabel.Size = new System.Drawing.Size(58, 13);
@@ -64,7 +63,7 @@
             // rLabel
             // 
             this.rLabel.AutoSize = true;
-            this.rLabel.Location = new System.Drawing.Point(84, 245);
+            this.rLabel.Location = new System.Drawing.Point(84, 246);
             this.rLabel.Name = "rLabel";
             this.rLabel.Size = new System.Drawing.Size(59, 13);
             this.rLabel.TabIndex = 4;
@@ -72,18 +71,17 @@
             // 
             // codeInput
             // 
-            this.codeInput.Location = new System.Drawing.Point(87, 164);
+            this.codeInput.Location = new System.Drawing.Point(87, 165);
             this.codeInput.Name = "codeInput";
             this.codeInput.Size = new System.Drawing.Size(100, 20);
             this.codeInput.TabIndex = 9;
             this.codeInput.Visible = false;
-            this.codeInput.TextChanged += new System.EventHandler(this.codeInput_TextChanged);
             this.codeInput.KeyDown += new System.Windows.Forms.KeyEventHandler(this.codeInput_KeyDown);
             // 
             // yLabel
             // 
             this.yLabel.AutoSize = true;
-            this.yLabel.Location = new System.Drawing.Point(87, 281);
+            this.yLabel.Location = new System.Drawing.Point(84, 282);
             this.yLabel.Name = "yLabel";
             this.yLabel.Size = new System.Drawing.Size(55, 13);
             this.yLabel.TabIndex = 11;
@@ -121,12 +119,11 @@
             // 
             // backLabel
             // 
-            this.backLabel.AutoSize = true;
-            this.backLabel.Location = new System.Drawing.Point(-2, 148);
+            this.backLabel.Location = new System.Drawing.Point(3, 136);
             this.backLabel.Name = "backLabel";
-            this.backLabel.Size = new System.Drawing.Size(274, 13);
+            this.backLabel.Size = new System.Drawing.Size(287, 13);
             this.backLabel.TabIndex = 13;
-            this.backLabel.Text = "To go back a step, press backspace(only once per step)";
+            this.backLabel.Text = "To go back a step, press backspace (only once per step)";
             // 
             // Form1
             // 
