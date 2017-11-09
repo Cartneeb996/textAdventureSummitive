@@ -385,7 +385,7 @@ namespace textAdventureSummitive
                 if (scene == 7)
                 {
                     step = 3;
-                    if (codeInput.Text == "int inpu;" || codeInput.Text == "int inputNum;" || codeInput.Text == "int inputNumber;" || codeInput.Text == "int inputA;")
+                    if (codeInput.Text == "int input;" || codeInput.Text == "int inputNum;" || codeInput.Text == "int inputNumber;" || codeInput.Text == "int inputA;")
                     {
                         outputLabel.Text = "that works, now we need to make another input variable" + "\nThe code:\n" + codeInput.Text;
                         codeInputText = codeInput.Text; //add input to variable, so that later steps this can be displayed properly
